@@ -2,6 +2,15 @@
 
 Autonomous navigation demos for a simulated [ROBOTIS TurtleBot](https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/#overview) using ROS 2 Jazzy and behavior trees.
 
+This repository is a fork of [pantelis/turtlebot-maze](https://github.com/pantelis/turtlebot-maze). The upstream project provides the main simulation and autonomy framework; this fork includes coursework and experimental additions.
+
+## Demo and screenshots
+
+- [Python behavior-tree demo](media/demo_screenshot_python.png)
+- [C++ behavior-tree demo](media/demo_screenshot_cpp.png)
+- [Gazebo and RViz environments](media/)
+- [Gaussian-splat capture documentation](docs/3dgs-turtlebot.md)
+
 The robot navigates a house environment searching for objects using vision (HSV color thresholding or YOLOv8 deep learning) and [Nav2](https://docs.nav2.org/)-based path planning.
 
 **Behavior trees** drive the autonomy — see [this introduction](https://roboticseabass.com/2021/05/08/introduction-to-behavior-trees/) or the [BT textbook](https://arxiv.org/abs/1709.00084).
